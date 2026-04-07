@@ -1,14 +1,14 @@
 ## Login Test Cases - SauceDemo - https://www.saucedemo.com/
 
 ## Test Execution Summary
-### Total test cases: 8
-### Passed: 5
-### Fail: 3
+Total test cases: 8
+Passed: 5
+Fail: 3
 
 # Test Cases
 
 ## TC01_Valid_login
-Title: Login with valid credentials
+Title: Login with valid credentials.
 Preconditions: User is on login page
 Steps:
 1. Enter valid username
