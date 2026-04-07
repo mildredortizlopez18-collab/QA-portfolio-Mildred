@@ -19,12 +19,17 @@ Steps:
 Test Data:
 
 *User: standard_user
+
 *Password: secret_sauce
 
 Expected Result: User is redirected to the products page
+
 Test Type: Positive
+
 Status: Pass
+
 Actual Results: User logged in successfully and inventory page displayed
+
 
 ## TC02_Empty_fields_login
 Title: Login with empty username and password
