@@ -9,6 +9,7 @@ Fail: 3
 
 ## TC01_Valid_login
 Title: Login with valid credentials.
+
 Preconditions: User is on login page.
 
 Steps:
