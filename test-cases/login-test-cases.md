@@ -16,33 +16,41 @@ Steps:
 1. Enter valid username.
 2. Enter valid password.
 3. Click on login button.
+
 Test Data:
 
 *User: standard_user
 
 *Password: secret_sauce
 
-Expected Result: User is redirected to the products page
+Expected Result: User is redirected to the products page.
 
-Test Type: Positive
+Test Type: Positive.
 
-Status: Pass
+Status: Pass.
 
-Actual Results: User logged in successfully and inventory page displayed
+Actual Results: User logged in successfully and inventory page displayed.
 
 
 ## TC02_Empty_fields_login
-Title: Login with empty username and password
-Preconditions: User is on login page 
+Title: Login with empty username and password.
+
+Preconditions: User is on login page.
+
 Steps:
-1. Field username empty
-2. Field password empty
-3. Click login button 
+1. Field username empty.
+2. Field password empty.
+3. Click login button.
+
 Test Data: N/A
-Expected Results:Error message displayed = "Epic sadface: Username and Password is required"
-Test Type: Negative
-Status: Fail 
-Actual Results: Error message displayed = "Epic sadface: Username is required"
+
+Expected Results:Error message displayed = "Epic sadface: Username and Password is required."
+
+Test Type: Negative.
+
+Status: Fail.
+
+Actual Results: Error message displayed = "Epic sadface: Username is required."
 
 ## TC03_Empty_password_login
 Title:Login with valid Username and empty password
