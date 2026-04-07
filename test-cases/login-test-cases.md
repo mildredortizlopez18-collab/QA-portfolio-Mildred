@@ -53,17 +53,25 @@ Status: Fail.
 Actual Results: Error message displayed = "Epic sadface: Username is required."
 
 ## TC03_Empty_password_login
-Title:Login with valid Username and empty password
-Preconditions:User is on login page 
+Title:Login with valid Username and empty password.
+
+Preconditions: User is on login page.
+
 Steps:
-1. Enter valid username
-2. Field password empty
-3. Click on login button
+1. Enter valid username.
+2. Field password empty.
+3. Click on login button.
+
 Test Data:
+
 *User: standard_user
-Expected Results: Error message displayed = "Epic sadface: Password is required"
-Test Type: Negative
-Status: Pass
+
+Expected Results: Error message displayed = "Epic sadface: Password is required."
+
+Test Type: Negative.
+
+Status: Pass.
+
 Actual Results: Error message displayed = "Epic sadface: Password is required"
 
 ## TC04_Empty_username_login
