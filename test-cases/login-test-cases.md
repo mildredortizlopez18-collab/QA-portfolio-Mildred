@@ -14,6 +14,7 @@ Steps:
 1. Enter valid username.
 2. Enter valid password.
 3. Click on login button.
+
 Test Data:
 *User: standard_user
 *Password: secret_sauce
