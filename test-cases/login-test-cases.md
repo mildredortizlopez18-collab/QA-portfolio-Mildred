@@ -19,9 +19,9 @@ Steps:
 
 Test Data:
 
-*User: standard_user
+Username= standard_user
 
-*Password: secret_sauce
+Password= secret_sauce
 
 Expected Result: User is redirected to the products page.
 
@@ -44,7 +44,7 @@ Steps:
 
 Test Data: N/A
 
-Expected Results:Error message displayed = "Epic sadface: Username and Password is required."
+Expected Results: Error message displayed = "Epic sadface: Username and Password is required."
 
 Test Type: Negative.
 
@@ -64,7 +64,7 @@ Steps:
 
 Test Data:
 
-*User: standard_user
+Username= standard_user
 
 Expected Results: Error message displayed = "Epic sadface: Password is required."
 
@@ -75,32 +75,49 @@ Status: Pass.
 Actual Results: Error message displayed = "Epic sadface: Password is required"
 
 ## TC04_Empty_username_login
-Title:Login with empty username and valid password
-Preconditions: User is on login page
+Title:Login with empty username and valid password.
+
+Preconditions: User is on login page.
+
 Steps:
-1. Field username empty
-2. Enter valid password
-3. Click on login button 
+1. Field username empty.
+2. Enter valid password.
+3. Click on login button.
+ 
 Test Data:
-*Password: secret_sauce
-Expected Results: Error message displayed = "Epic sadface: Username is required"
-Test Type:Negative
-Status: Pass
-Actual Results:Error message displayed = "Epic sadface: Username is required"
+
+Password: secret_sauce
+
+Expected Results: Error message displayed = "Epic sadface: Username is required."
+
+Test Type: Negative.
+
+Status: Pass.
+
+Actual Results:Error message displayed = "Epic sadface: Username is required."
 
 ## TC05_Locked_user_login
-Title:Login with locked user
-Preconditions: User is on login page
+Title:Login with locked user.
+
+Preconditions: User is on login page.
+
 Steps:
-1. Enter with locked user
-2. Enter valid password
-3. Click on login button
+1. Enter with locked user.
+2. Enter valid password.
+3. Click on login button.
+
 Test Data:
-*Username: locked_out_user
-*Password: secret_sauce
+
+Username= locked_out_user
+
+Password= secret_sauce
+
 Expected Results: Error message displayed: "Epic sadface: Sorry, this user has been locked out."
-Test Type: Negative
-Status: Pass
+
+Test Type: Negative.
+
+Status: Pass.
+
 Actual Results: Error message displayed: "Epic sadface: Sorry, this user has been locked out."
 
 ## TC06_Wrong_password
