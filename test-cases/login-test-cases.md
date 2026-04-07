@@ -5,9 +5,9 @@ Total test cases: 8
 Passed: 5
 Fail: 3
 
-# Test Cases
+## Test Cases
 
-## TC01_Valid_login
+### TC01_Valid_login
 Title: Login with valid credentials.
 
 Preconditions: User is on login page.
@@ -32,7 +32,7 @@ Status: Pass.
 Actual Results: User logged in successfully and inventory page displayed.
 
 
-## TC02_Empty_fields_login
+### TC02_Empty_fields_login
 Title: Login with empty username and password.
 
 Preconditions: User is on login page.
@@ -52,7 +52,7 @@ Status: Fail.
 
 Actual Results: Error message displayed = "Epic sadface: Username is required."
 
-## TC03_Empty_password_login
+### TC03_Empty_password_login
 Title:Login with valid Username and empty password.
 
 Preconditions: User is on login page.
