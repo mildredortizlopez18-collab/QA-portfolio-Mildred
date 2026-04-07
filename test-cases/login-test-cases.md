@@ -9,11 +9,11 @@ Fail: 3
 
 ## TC01_Valid_login
 Title: Login with valid credentials.
-Preconditions: User is on login page
+Preconditions: User is on login page.
 Steps:
-1. Enter valid username
-2. Enter valid password
-3. Click on login button
+1. Enter valid username.
+2. Enter valid password.
+3. Click on login button.
 Test Data:
 *User: standard_user
 *Password: secret_sauce
